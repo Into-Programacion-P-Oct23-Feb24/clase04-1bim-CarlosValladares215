@@ -26,6 +26,11 @@ public class Ejemplo05 {
         
         System.out.println(nombreEstudiante+"\n"+"\n"+apellidoEstudiante+ "\n"+
                 "\n"+ nacimiento); */
+        
+        /* Para que sirve el "/t" y el "/n/?
+            el "/t" sirve para dar un espacio de la misma distancia que hace el tabulador
+            el "/n" sirve para dar un salto de una linea a la otra
+        */
         System.out.println(nombreEstudiante+"\t"+apellidoEstudiante);   
         System.out.println(nombreEstudiante+"\n\t"+apellidoEstudiante);   
     }
