@@ -31,6 +31,10 @@ public class Ejemplo2 {
         notaAsignatura1 = entrada.nextDouble();
         System.out.println("Ingrese nombre de asignatura 2");
         entrada.nextLine(); // limpieza de buffer
+        /* 
+           Se necesita hacer la limpieza de buffer cada que queramos ingresar 
+           un valor de tipo string por debajo de uno tipo numerico
+        */
         nombreAsignatura2 = entrada.nextLine();
         System.out.println("Ingrese nota de asignatura 2");
         notaAsignatura2 = entrada.nextDouble();
